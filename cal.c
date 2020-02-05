@@ -45,11 +45,21 @@
          float div=(a2/b2);
          printf("\nDivision of %f and %f is %f.",a2,b2,div);
          break;
-        
 
-
-
-        
-     }
+         case 4:
+         printf("Multipication\n");
+         float a3,b3;
+         printf("enter first number:");
+         scanf("%f",&a3);
+         printf("enter second number:");
+         scanf("%f",&b3);
+         float mul=(a3*b3);
+         printf("\nMultipication %f and %f is %f.",a3,b3,mul);
+         break;
+         
+         default:
+         printf("wrong entry");
+         break;
+    }
      return 0;
  }
