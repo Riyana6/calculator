@@ -45,17 +45,7 @@
          float div=(a2/b2);
          printf("\nDivision of %f and %f is %f.",a2,b2,div);
          break;
-         
-         case 3:
-         printf("Subtraction\n");
-         float a1,b1;
-         printf("enter first number:");
-         scanf("%f",&a1);
-         printf("enter second number:");
-         scanf("%f",&b1);
-         float sub=(a1-b1);
-         printf("\nDifference between %f and %f is %f.",a1,b1,sub);
-         break;
+        
 
 
 
